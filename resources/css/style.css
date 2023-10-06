@@ -1,16 +1,6 @@
-p {
-    Color: red;
-    font size: 100px;
-    font-weight:500;
-    font-family: fantasy;
+.nav-item-w {
+    color:palevioletred;
 }
-.trabajos {
-    color: rgb(240, 128, 128);
-}
-.Comida {
-    color:rgb(25, 111, 61);
-    font-size: larger;
-}
-#Hola {
-    color: blueviolet;
+.nav-item-g {
+    color: green;
 }
