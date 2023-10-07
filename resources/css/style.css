@@ -1,6 +1,27 @@
 .nav-item-w {
-    color:palevioletred;
+    color:grey;
 }
 .nav-item-g {
     color: green;
+}
+
+.nav-item-w:hover {
+    color: white;
+}
+.banner {
+    height: 90vh;
+}
+
+.imgBanner {
+    height: 91vh;
+}
+
+.infoCards {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.cajas {
+
 }

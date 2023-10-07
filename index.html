@@ -14,23 +14,23 @@
         <!-- Barra de navegación -->
         <nav class="navbar navbar-expand-lg navar-dark bg-dark navar fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#" style="color: white;">Conf Bs As</a>
+              <a class="navbar-brand" href="#" style="color: white;"> <img src="./resources/img/codoacodo.png" alt="Logo codo a codoacodo" width="20%" height="20%">Conf Bs As</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item-w">
-                      <a class="nav-link active" aria-current="page" href="#" style="color: gray;">La conferencia</a>
+                      <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
                     </li>
                     <li class="nav-item-w">
-                      <a class="nav-link" href="#" style="color: gray;">Los oradores</a>
+                      <a class="nav-link nav-item-w" href="#">Los oradores</a>
+                    </li>   
+                    <li class="nav-item-w">
+                      <a class="nav-link" href="#">El lugar y la fecha</a>
                     </li>
                     <li class="nav-item-w">
-                      <a class="nav-link" href="#" style="color: gray;">El lugar y la fecha</a>
-                    </li>
-                    <li class="nav-item-w">
-                      <a class="nav-link" href="#" style="color: gray;">Conviértete en orador</a>
+                      <a class="nav-link" href="#">Conviértete en orador</a>
                     </li>
                   <li class="nav-item-g">
                     <a class="nav-link" href="#" style="color: green;">Comprar tickets</a>
@@ -42,7 +42,75 @@
     </header>
    <main>
        <!-- Banner -->
+       <div id="carouselExample" class="carousel slide banner">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./resources/img/ba1.jpg" class="d-block w-100 imgBanner" alt="edificio antiguo">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Conf Bs. As.</h3>
+              <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./resources/img/ba2.jpg" class="d-block w-100 imgBanner" alt="bar">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Conf Bs. As.</h3>
+              <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./resources/img/ba3.jpg" class="d-block w-100 imgBanner" alt="Bs As">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Conf Bs. As.</h3>
+              <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
        <!-- Cards -->
+       <div class="conteiner infoCards">
+        <div class="row">
+          <div class="col cajas">
+            <div class="card" style="width: 18rem;">
+              <img src="./resources/img/steve.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col cajas">
+            <div class="card" style="width: 18rem;">
+              <img src="./resources/img/bill.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col cajas">
+            <div class="card" style="width: 18rem;">
+              <img src="./resources/img/ada.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
        <!-- Conteiner -->
        <!-- Formulario -->
    </main>
