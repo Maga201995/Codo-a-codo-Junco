@@ -49,4 +49,16 @@ background-color:rgb(53, 58, 64);
 }
 .formulario {
     text-align: center;
+
+.container {
+    background-color:blue;
+    padding-left: 0%;
+    padding-right: 0%;
+    background: blue
+
+}
+.footer {
+    margin-top: 5px;
+    color: white;
+
 }
