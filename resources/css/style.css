@@ -49,16 +49,21 @@ background-color:rgb(53, 58, 64);
 }
 .formulario {
     text-align: center;
+}
 
-.container {
-    background-color:blue;
-    padding-left: 0%;
-    padding-right: 0%;
-    background: blue
+#main-footer {
+    background: #1d3c4e;
+    color: #fff;
+
 
 }
 .footer {
-    margin-top: 5px;
-    color: white;
-
+    margin-top: 8px;
+   
 }
+#main-footer .nav-link {
+    color: #fff;
+    text-align: center;
+}
+#main-footer .nav-link:hover { 
+    opacity: .7; }
