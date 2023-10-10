@@ -34,9 +34,9 @@
     margin-top: 20px;
 }
 
-.cajas {
+/* .cajas {
 
-}
+} */
 .container-lugar {
 margin-top: 30px;
 background-color:rgb(53, 58, 64);
@@ -76,7 +76,8 @@ background-color:rgb(53, 58, 64);
     text-align: center;
 }
 #main-footer .nav-link:hover { 
-    opacity: .7; }
+    opacity: .7; 
+}
 
 .enviar {
   font-size: 1.4rem;
@@ -86,4 +87,14 @@ background-color:rgb(53, 58, 64);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 100;
   border: none;
-  }
+}
+
+.text-area {
+    width: 752px;
+}
+
+@media (max-width: 575.98px) { 
+    .text-area {
+        width: 375px;
+    }
+}
